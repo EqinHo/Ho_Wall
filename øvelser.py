@@ -22,9 +22,9 @@ for i, person in enumerate(people):
     groups[i % num_groups].append(person)
 
 # assign color to each group
-color = ["black","white","red","blue"]
+color = ["Sort","Hvit","Rød","Blå"]
 
 # Print the groups with the color
 for i, group in enumerate(groups):
-    print(f"{color[i]} : {group} ")
+    print(f" Runar {color[i]} : {group} ")
 
