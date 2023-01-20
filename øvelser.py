@@ -21,7 +21,10 @@ random.shuffle(people)
 for i, person in enumerate(people):
     groups[i % num_groups].append(person)
 
-# Print the groups
+# assign color to each group
+color = ["black","white","red","blue"]
+
+# Print the groups with the color
 for i, group in enumerate(groups):
-    print(f"Runar {i+1}: {group}")
+    print(f"{color[i]} : {group} ")
 
